@@ -15,7 +15,7 @@ spec:
         requeueAfterSeconds: 60
   template:
     metadata:
-      name: 'guestbook-{{.path.basename}}'
+      name: 'guestbook-{{.path.basename}}-x'
     spec:
       project: default
       source:
